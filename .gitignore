@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.python-version
+
+# Env + secrets
+.env
+.env.local
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# uv
+uv.lock.bak
+
+# ADK web runtime state (sessions, artifacts) — contains query history
+.adk/
+
+# AV course IP (do not push)
+Handouts/
+asset.zip
+asset/flow.png
+
+# Private planning docs — contain strategic info (interview schedule,
+# salary floors, immigration plans, internal cross-lane workflow).
+# Public README + docs/ tell the recruiter-facing story; these stay local.
+OUTLINE.md
+IMPLEMENTATION.md
+
+# Builds / dist
+dist/
+build/
+
+# Notebooks scratch
+.ipynb_checkpoints/
+
+# Stray R history (created by IDE in this folder)
+.Rhistory

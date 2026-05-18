@@ -1,0 +1,15 @@
+[project]
+name = "hvac-cyber-id-host-agent"
+version = "0.1.0"
+description = "ADK Host Agent orchestrating the Grid Load Agent over A2A protocol."
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "google-adk>=1.2.1",
+    "a2a-sdk>=0.2.5,<0.3.0",
+    "python-dotenv",
+    "click",
+    "uvicorn",
+    "google-generativeai",
+    "httpx",
+    "grpcio==1.73.0",
+]

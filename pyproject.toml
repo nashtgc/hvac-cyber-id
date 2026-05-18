@@ -1,0 +1,6 @@
+[project]
+name = "hvac-cyber-id"
+version = "0.1.0"
+description = "Multi-agent A2A demo orchestrating grid-load telemetry retrieval. Built on Google ADK + LangGraph + A2A SDK + FastMCP + Gemini."
+readme = "README.md"
+requires-python = ">=3.13"
